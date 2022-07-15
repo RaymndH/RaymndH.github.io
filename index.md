@@ -1,5 +1,1 @@
-Here you can say lots of fun things about your site.
-
-Maybe say a some things about yourself.
-
-Or maybe what you plan to blog about.
+Hi! My name is Raymond Harding, and I'm a student at UC Santa Cruz, going into my Masters for Scientific Computing and Applied Mathematics.

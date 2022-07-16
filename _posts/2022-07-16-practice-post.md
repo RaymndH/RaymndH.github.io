@@ -12,8 +12,8 @@ Testing markup:
 
 **this is bold text**
 
-#This is the maximum size
-
-###here's a smaller one
+1. The first item in an ordered list
+2. The second item in an ordered list
+6. The (sixth?) item
 
  A code block

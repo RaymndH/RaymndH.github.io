@@ -2,6 +2,7 @@
 
 Here's a little bit of flavor text
 
+A code block
  ```tsql
  SELECT *
  FROM sys.tables
@@ -16,4 +17,4 @@ Testing markup:
 2. The second item in an ordered list
 6. The (sixth?) item
 
- A code block
+ ![text](favicon-16x16.png)

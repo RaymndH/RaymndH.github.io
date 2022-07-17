@@ -19,7 +19,7 @@ Testing markup:
 
  ![text](/Users/ray/Documents/GitHub/RaymndH.github.io/docs/assets/favicon-16x16.png)
 
-[link to test](https://RaymndH.github.io/docs/plotly.html)
+{% include plotly.html %}
 
 <script>
 var theCanvas = document.getElementBy

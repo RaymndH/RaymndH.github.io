@@ -17,7 +17,7 @@ Testing markup:
 2. The second item in an ordered list
 6. The (sixth?) item
 
- ![text](/Users/ray/Documents/GitHub/RaymndH.github.io/docs/assets/favicon-16x16.png)
+ An interactive plot
 
 {% include plotly.html %}
 

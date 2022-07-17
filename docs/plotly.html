@@ -1,0 +1,49 @@
+<head>
+	<!-- Load plotly.js into the DOM -->
+	<script src='https://cdn.plot.ly/plotly-2.12.1.min.js'></script>
+	<script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@2.0.0/dist/tf.min.js"></script>
+	<script src="https://unpkg.com/mathjs@10.6.4/lib/browser/math.js"></script>
+</head>
+
+<body>
+	<div id='myDiv'><!-- Plotly chart will be drawn inside this DIV --></div>
+	<script>
+		var trace1 = {
+  x: [1, 2, 3, 4],
+  y: [10, 15, 13, 17],
+  mode: 'markers',
+  type: 'scatter'
+};
+
+//t2x = [1,1.3,1.6,2]
+//t2x = math.range(0,4,.1);
+t2x = []
+for (let i=0; i<100; i++) {
+	t2x.push(i/25)
+}
+
+t2y = [];
+for (let i=0; i<t2x.length; i++) {
+	t2y[i] = 15*Math.sin(t2x[i])
+}
+
+var trace2 = {
+  x: t2x,
+  y: t2y,
+  mode: 'lines',
+  type: 'scatter'
+};
+
+var trace3 = {
+  x: [1, 2, 3, 4],
+  y: [12, 9, 15, 12],
+  mode: 'lines+markers',
+  type: 'scatter'
+};
+
+var data = [trace1, trace2, trace3];
+
+Plotly.newPlot('myDiv', data);
+
+	</script>	
+</body>

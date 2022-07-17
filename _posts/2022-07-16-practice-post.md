@@ -17,4 +17,10 @@ Testing markup:
 2. The second item in an ordered list
 6. The (sixth?) item
 
- ![text](favicon-16x16.png)
+ ![text](/Users/ray/Documents/GitHub/RaymndH.github.io/docs/assets/favicon-16x16.png)
+
+[link to test](https://RaymndH.github.io/docs/plotly.html)
+
+<script>
+var theCanvas = document.getElementBy
+</script>

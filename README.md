@@ -1,4 +1,4 @@
-# Data Science
+# Scientific Computing
 
 ### Education
 - M.S Applied Math, UCSC
